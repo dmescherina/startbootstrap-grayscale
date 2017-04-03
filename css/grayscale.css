@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #e3bb76;
+  color: #EEE8AA;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -124,8 +124,8 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-eye.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background: url(../img/intro-eye-blueish.jpg) no-repeat bottom center scroll;
+  background-color: DARKSLATEGREY;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -136,10 +136,10 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 35px;
 }
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   .intro {
@@ -147,10 +147,10 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 60px;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 .btn-circle {
@@ -235,7 +235,7 @@ a:focus {
   width: 100%;
   padding: 100px 0;
   color: white;
-  background: url(../img/key-solution.jpg) no-repeat center center scroll;
+  background: url(../img/key-solution-blur.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -246,7 +246,7 @@ a:focus {
   width: 100%;
   padding: 100px 0;
   color: white;
-  background: url(../img/girl-binoculars.jpg) no-repeat center center scroll;
+  background: url(../img/girl-binoculars-blur.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -286,16 +286,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #E3BB76;
-  color: #E3BB76;
+  border: 1px solid #EEE8AA;
+  color: #EEE8AA;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #E3BB76;
+  border: 1px solid #2F4F4F;
   outline: none;
-  color: black;
-  background-color: #E3BB76;
+  color: white;
+  background-color: #2F4F4F;
 }
 ul.banner-social-buttons {
   margin-top: 0;
