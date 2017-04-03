@@ -8,7 +8,7 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: DARKSLATEGRAY;
 }
 html {
   width: 100%;
@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #e3bb76;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #d3a567;
 }
 .light {
   font-weight: 400;
@@ -57,7 +57,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: DARKSLATEGRAY;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -113,7 +113,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: DARKSLATEGRAY;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/intro-eye.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,11 +220,33 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.posts-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/key-idea-blueish.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.about-section {
+  width: 100%;
+  padding: 100px 0;
+  color: white;
+  background: url(../img/key-solution.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.contact-section {
+  width: 100%;
+  padding: 100px 0;
+  color: white;
+  background: url(../img/girl-binoculars.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,9 +260,15 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
-  .download-section {
+  .posts-section {
+    padding: 100px 0;
+  }
+  .about-section {
+    padding: 100px 0;
+  }
+  .contact-section {
     padding: 100px 0;
   }
   #map {
@@ -258,16 +286,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #E3BB76;
+  color: #E3BB76;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #E3BB76;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #E3BB76;
 }
 ul.banner-social-buttons {
   margin-top: 0;
